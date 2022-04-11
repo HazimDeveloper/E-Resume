@@ -1,3 +1,6 @@
+
+  
+
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
@@ -95,3 +98,4 @@ $("#app2").on('click',function(){
     
       });
   });
+
