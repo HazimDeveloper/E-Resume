@@ -36,66 +36,25 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-    // typing text animation script
-    var typed = new Typed(".typing", {
-        strings: ["Student", "Freelancer"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-
-    var typed = new Typed(".typing-2", {
-        strings: [ "Student", "Freelancer"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-
-    // owl carousel script
-    $('.carousel').owlCarousel({
-        margin: 20,
-        loop: true,
-        autoplay: true,
-        autoplayTimeOut: 2000,
-        autoplayHoverPause: true,
-        responsive: {
-            0:{
-                items: 1,
-                nav: false
-            },
-            600:{
-                items: 2,
-                nav: false
-            },
-            1000:{
-                items: 3,
-                nav: false
-            }
-        }
-    });
 });
 
-//button play java video script
-
-$(".java").hide();
-$("#app").on('click',function(){
-    $(".java").toggle();
-    $(".application").text("Hide Video");
+    $(".application").show();
     $("#app").on('click',function(){
-        $(".application").text("Play Video");
-    
+        $(".java").toggle();
+        $(".application").toggle().text("Hide Video");
       });
-  });
-
-  //button play vb
-
-  $(".vb").hide();
-$("#app2").on('click',function(){
-    $(".vb").toggle();
-    $(".application2").text("Hide Video");
+    
+      //button play vb
+    
+      $(".application2").show();
     $("#app2").on('click',function(){
-        $(".application2").text("Play Video");
-    
+        $(".vb").hide();
+        $(".application2").text("Hide Video");
       });
-  });
 
+$("#app2").on('click',function(){
+        $(".vb").show();
+        $(".application2").text("show Video");
+      });
+    
+  

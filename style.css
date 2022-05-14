@@ -506,6 +506,11 @@ section .title::after {
   color: white;
 }
 
+.swiper {
+  width: 800px;
+  height: 800px;
+}
+
 /* contact section styling */
 .contact .title::after {
   content: "get in touch";
@@ -834,6 +839,11 @@ footer span a:hover {
   .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
+  }
+
+  .swiper{
+    height: 800px;
+    width: 400px;
   }
 }
 
