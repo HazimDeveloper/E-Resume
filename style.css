@@ -240,7 +240,7 @@ section .title::after {
 }
 
 .education tr:nth-child(odd){
-  background-color: #FFD59E;
+  background-color: #EF9F9F;
 }
 
 .education  tr:hover {background-color: #ddd;}
