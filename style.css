@@ -380,10 +380,10 @@ section .title::after {
   background: crimson;
 }
 .skills-content .right .html::before {
-  width: 60%;
+  width: 70%;
 }
 .skills-content .right .css::before {
-  width: 50%;
+  width: 40%;
 }
 .skills-content .right .js::before {
   width: 50%;
@@ -392,6 +392,15 @@ section .title::after {
   width: 70%;
 }
 .skills-content .right .mysql::before {
+  width: 40%;
+}
+.skills-content .right .java::before {
+  width: 50%;
+}
+.skills-content .right .api::before {
+  width: 40%;
+}
+.skills-content .right .json::before {
   width: 40%;
 }
 
